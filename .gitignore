@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+env/
+
+# LanceDB local vector store (generated at runtime)
+lancedb_store/
+
+# Streamlit
+.streamlit/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
